@@ -20,10 +20,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
   @font-face {
-    font-family:'t112590011';
+     font-family:'CircleFont';
     src: url(https://github.com/andy0716NTUT/ai2025s/blob/main/hw01/112590011.woff2); 
   }
-
+  @font-face {
+     font-family:'t112590011';
+    src: url(https://Garvin2009.github.io/ai2025s/hw01/113378043.woff2);
+  }
   table {
       border-collapse: collapse;
       border: 2px solid white; /* rgba(217,140,144,1) */
@@ -84,9 +87,11 @@
   body {
     background-color: rgb(106, 76, 156); /* #6A4C9C */
     color: rgb(106, 76, 156);
-    font-family: 't112590011', serif;
+    font-family: 'CircleFont', 'Noto Sans JP', serif;
   }
-
+  p{
+    font-family:'112590011', serif;
+  }
   .container-fluid {
     width:  90%;
   }
@@ -147,7 +152,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      <h1>作業 01</h1>
+      <h1>作業 01-稿紙</h1>
     </div>
   </div>
 
@@ -165,9 +170,7 @@
       <input type="button" name="back" onclick="location.href='https://drive.google.com/file/d/1GtE3MAjuElwnhonziNWHQAbqPpl_OoGW/view?usp=sharing'" value="按我 ٩(｡・ω・｡)و 前往">
     </div>
 </div>
-
   <!-- ------------------------------------------------>
-
   <div class="row hw12">
     <div class="col-md-12 twenty">
       字體檔位置連結：授權至SIL開源字型
@@ -175,7 +178,6 @@
       (p.s 請記得修改網址)
     </div>
 </div>
-
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
@@ -188,22 +190,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 稿紙1~30頁完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 稿紙31~57頁完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 字體包上傳完成且用自己的字體顯示</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" ></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -213,16 +215,6 @@
   </div>
 
   <!-- ------------------------------------------------>
-  <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-
-  <!-- ------------------------------------------------>
-
   <div class="row hw12">
     <div class="col-md-12 twenty">    
        <figure>
@@ -235,9 +227,9 @@
         </figure>
     </div>
   </div>
-
   <!-- ------------------------------------------------>
-
+  <!-- ------------------------------------------------>
+  <!-- ------------------------------------------------>
 
 <script>
   $(function() {
