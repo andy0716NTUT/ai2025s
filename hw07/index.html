@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="zh-Hant-TW">
 <head>
@@ -154,7 +155,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次的作業讓我首次接觸並實作了語音辨識（ASR）技術，透過Google Colab匯入相關模組，完成語音轉文字的流程並自動生成字幕。過程中我更深入理解了ASR的應用原理與技術限制，例如語音品質、語速及背景雜訊對辨識準確率的影響。在完成Medium baseline後，我也嘗試簡單摘要影片內容，更能體會語意理解在生成式AI中的挑戰
     </div>
   </div>
 
@@ -170,22 +171,24 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 匯入 Google Colab 必要的模組 </td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 進行Automatic Speech Recognition語音辨識並生成字幕
+</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 通過助教的影片摘要審核
+</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" ></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -197,9 +200,22 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <a href="https://youtu.be/S9JGmA5_unY?si=kkaNbhbuNshihxFa">Youtube影片</a><br>
+       <td>1.Simple baseline - 匯入 Google Colab 必要的模組 </td><br>
+       <img src="1.png"  width="1000" height="300"><br>
+      </div>
+  </div>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+       <td>2.Medium baseline - 進行Automatic Speech Recognition語音辨識並生成字幕</td><br>
+      <img src="2.png"  width="800" height="300"><br>
+  </div>
+  </div>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+       <td>3.Strong baseline - 通過助教的影片摘要審核</td><br>
+       <img src="3.png"width="800" height="300" ><br>
+       <a href="1.txt">輸出文檔</a><br> 
     </div>
   </div>
 

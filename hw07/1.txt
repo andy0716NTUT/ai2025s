@@ -1,0 +1,248 @@
+Extracted text has been saved to ./output-Large Language Models explained briefly.txt.
+
+
+Review the results of splitting the long text into several short texts.
+
+
+========== The 1-st segment of the split (505 words) ==========
+
+
+ Imagine that you find a script from a short film with a scene between a person
+
+and his artificial intelligence assistant.  The script shows the question for
+
+the artificial intelligence, but the answer disappeared.  Suppose you have this
+
+powerful and magical machine that can take a text and make a sensible prediction
+
+of what the next word is.  You could complete the script by inserting the text
+
+into the machine to predict the first word of the answer and then repeat the
+
+process word by word until you
+
+
+========== The 2-nd segment of the split (506 words) ==========
+
+
+complete the dialogue.  When you interact with a chatbot, this is what happens.
+
+An extensive language model, or LLM, is a sophisticated mathematical function
+
+that predicts what word comes next for any text.  However, instead of predicting
+
+a word with certainty, what it does is assign a probability to all possible
+
+words.  To build a chatbot, place a text with the interaction between a user and
+
+an assistant, add the user's question as the first part of the interaction and
+
+then make the model repeatedly
+
+
+========== The 3-rd segment of the split (511 words) ==========
+
+
+predict the next word that the artificial intelligence would give, until you get
+
+an answer.  By doing this, the result seems much more natural if the function
+
+randomly selects some less likely words.  What this means is that, although the
+
+model itself is deterministic, the same question usually gives a different
+
+answer every time it is executed.  Models learn to make these predictions by
+
+processing huge amounts of text.  For example, if a human being reads 24 hours a
+
+day without stopping, it will be a very
+
+
+========== The 4-th segment of the split (504 words) ==========
+
+
+difficult task.  Reading 24 hours a day 7 days a week would take more than 2,600
+
+years to read the text used in training the GPT-3 model.  You can think of
+
+training as the tuning of the dials of a big machine.  The way a language model
+
+behaves is totally determined by these values, usually called parameters or
+
+weights.  If you change these parameters, the probabilities that the model
+
+assigns to the next word of a particular text will change.  What makes a
+
+language model extensive is that it can have
+
+
+========== The 5-th segment of the split (511 words) ==========
+
+
+hundreds of thousands of millions of parameters.  But no human being defines
+
+these parameters.  Instead, they start at random, so the model only produces
+
+meaningless letters, but they are subsequently perfected from many example
+
+texts.  A training text could have only a few words or thousands, but in any
+
+case, the way it works is by introducing all the words of that example,  except
+
+the last one and comparing the model's prediction with the true word.  To adjust
+
+all the parameters, a algorithm called retro
+
+
+========== The 6-th segment of the split (506 words) ==========
+
+
+propagation is used, which increases the probability of the model choosing the
+
+last true word.  When you do this for many millions of examples, the model not
+
+only begins to give better predictions about training data,  but also makes more
+
+reasonable predictions about texts that it has never seen before.  Because of
+
+the large number of parameters and the huge amount of training data, the
+
+necessary computing scale for training an LLM is amazing.  To illustrate it,
+
+imagine that you can perform a thousand
+
+
+========== The 7-th segment of the split (512 words) ==========
+
+
+million sums and multiplications every second.  How long do you think it would
+
+take to complete all the training operations of the largest language models?  Do
+
+you think it would be a year or ten thousand years?  The answer is much longer.
+
+It would be more than 100 million years.  But this is only the first part of the
+
+story. This whole process is called pre-training.  The goal of completing a text
+
+passage is different from the goal of being a good artificial intelligence
+
+assistant.  To solve this, chatbots
+
+
+========== The 8-th segment of the split (510 words) ==========
+
+
+are subjected to another type of training called reinforcement learning with
+
+human feedback.  Human supervisors point out useless or problematic predictions
+
+to further refine the model's parameters and thus increase the chances of
+
+offering the desired predictions.  If we look back, this amazing amount of
+
+computing is only possible by using chips known as GPUs that are optimized to
+
+perform many parallel operations.  But not all language models can be easily
+
+parallelized.  Before 2017, most models processed
+
+
+========== The 9-th segment of the split (510 words) ==========
+
+
+text word for word, but a team of Google researchers presented a new model known
+
+as Transformador.  Transformers do not read the text from beginning to end, they
+
+absorb everything at once and in parallel.  The first step within a transformer
+
+is to associate each word with a long list of numbers.  The reason is that
+
+computing during the training process is executed with numerical data and that
+
+is why it is necessary to code, in some way, the meaning of each word with these
+
+lists of continuous values.  What
+
+
+========== The 10-th segment of the split (511 words) ==========
+
+
+makes Transformers unique is their dependence on a special operation called
+
+Attention.  This operation gives all these lists of numbers the opportunity to
+
+speak to each other and refine the codified meanings depending on the context
+
+that surrounds them.  For example, the numbers that are codified in the word
+
+bank could change depending on the context to code the most specific and precise
+
+notion of the word River.  Transformers usually include a second type of
+
+operation known as a pre-fueled neural network,
+
+
+========== The 11-th segment of the split (508 words) ==========
+
+
+which gives the model an additional capacity to store patterns learned during
+
+training.  All this data flows repeatedly through many iterations of these two
+
+fundamental operations.  The idea is that each list of numbers enriches itself
+
+to encode the necessary information for a precise prediction of what word
+
+follows in the text.  In the end, to make a prediction of the next word, a final
+
+function is performed on the last vector of the sequence that already
+
+accumulates the influence of the context of the
+
+
+========== The 12-th segment of the split (510 words) ==========
+
+
+entry phrase and everything that the model learned during training.  Again, the
+
+prediction of the model is the assignment of a probability for each possible
+
+next word.  Although researchers design each step of the process, it is
+
+important to recognize that the resulting behavior is an emerging and
+
+spontaneous phenomenon that depends on the parameters set during training.  This
+
+makes it incredibly difficult to determine why the model makes a particular
+
+prediction.  What you can notice when you use language
+
+
+========== The 13-th segment of the split (509 words) ==========
+
+
+model predictions is that the words it generates are amazingly fluid,
+
+fascinating and even useful.  The model is a very interesting and interesting
+
+model.  If you are new here and are curious to know more details about how
+
+transformers and attention work, I have a lot of material for you.  An option is
+
+to visit a series of videos on deep learning, where we visualize the details of
+
+attention and the other processes in a transformer.  In addition, on my second
+
+channel I published a talk that I gave on this
+
+
+========== The 14-th segment of the split (213 words) ==========
+
+
+topic for the TNG company in Munich.  In reality, sometimes I prefer to give an
+
+informal talk rather than making a video production, but I leave to your choice
+
+which of them you think is best to continue learning.
